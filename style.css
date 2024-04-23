@@ -1,3 +1,6 @@
+body{
+    overflow: hidden;
+}
 .cabecera{
     background-color: rgb(48, 46, 46);
     color: white;
@@ -39,6 +42,7 @@
     
     display: flex;
     flex-direction: column;
+    
 }
 .perfil{
     margin-left: 70px;
@@ -116,7 +120,8 @@ button{
     
 }
 #titulosoli{
-    text-align: center;
+    text-align: start;
+    margin-left: 30px;
     font-family: sans-serif;
 }
 #avatar1{
@@ -137,7 +142,13 @@ button{
     margin-top: 3px;
     margin-bottom: 3px;
 }
-#coorrecto{
+#coorrecto1{
+    border-radius: 50%;
+    border: 1.4px solid rgb(219, 84, 167);
+    width: 60%;
+    color: rgb(219, 84, 167);;
+}
+#coorrecto2{
     border-radius: 50%;
     border: 1.4px solid rgb(219, 84, 167);
     width: 60%;
@@ -189,9 +200,18 @@ button{
     font-family: sans-serif;
 }
 #tituloconex{
-    text-align: center;
-    font-family: sans-serif;
 
+    font-family: sans-serif;
+    margin-left: 30px;
+
+}
+#contador1{
+    margin-left: 330px;
+    margin-top: -48px;
+}
+#contador{
+    margin-left: 300px;
+    margin-top: -55px;
 }
 #avatar3{
     border-radius: 50%;
