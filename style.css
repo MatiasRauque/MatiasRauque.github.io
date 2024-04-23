@@ -42,10 +42,13 @@ body{
     
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
 }
 .perfil{
-    margin-left: 70px;
+    
+    
     margin-top: 20px;
     width: 800px;
     height: 590px;
@@ -107,72 +110,13 @@ button{
 }
 
 
-.solicitudes{
-    background-color: rgb(255, 255, 255);
-    border: 2px solid rgb(233, 222, 222);
-    width: 420px;
-    height: 300px;
-    position: absolute;
-    top: 11.4%;
-    left: 65%;
-    border-radius: 10px;
-    font-family: sans-serif;
-    
-}
-#titulosoli{
-    text-align: start;
-    margin-left: 30px;
-    font-family: sans-serif;
-}
-#avatar1{
-    border-radius: 20%;
-    height: 85px;
-    border: 3.3px solid rgb(36, 177, 219);;
-    margin-left: 15px;
-    margin-right: 25px;
-    margin-top: 3px;
-    margin-bottom: 3px;
-}
-#avatar2{
-    border-radius: 20%;
-    height: 90px;
-    border: 3.3px solid rgb(36, 177, 219);;
-    margin-left: 15px;
-    margin-right: 25px;
-    margin-top: 3px;
-    margin-bottom: 3px;
-}
-#coorrecto1{
-    border-radius: 50%;
-    border: 1.4px solid rgb(219, 84, 167);
-    width: 60%;
-    color: rgb(219, 84, 167);;
-}
-#coorrecto2{
-    border-radius: 50%;
-    border: 1.4px solid rgb(219, 84, 167);
-    width: 60%;
-    color: rgb(219, 84, 167);;
-}
-#malardo{
-    border-radius: 50%;
-    width: 61%;
-    border: 1.4px solid rgb(219, 84, 167);
-    color: rgb(219, 84, 167);
-    font-size: large;
-
-}
-
-
 .educacion{
     background-color: rgb(255, 255, 255);
     border: 2px solid rgb(233, 222, 222);
     width: 800px;
     height: 200px;
     color: black;
-    position: absolute;
-    top: 76%;
-    left: 4%;
+    margin-top: 20px;
     border-radius: 10px;
 
 }
@@ -186,60 +130,4 @@ button{
     margin-bottom: 1px;
     margin-top: 1px;
     font-family: sans-serif;
-}
-.conexiones{
-    background-color: rgb(255, 255, 255);
-    border: 2px solid rgb(233, 222, 222);
-    width: 420px;
-    height: 500px;
-    color: black;
-    border-radius: 10px;
-    position: absolute;
-    left: 65%;
-    top: 45%;
-    font-family: sans-serif;
-}
-#tituloconex{
-
-    font-family: sans-serif;
-    margin-left: 30px;
-
-}
-#contador1{
-    margin-left: 330px;
-    margin-top: -48px;
-}
-#contador{
-    margin-left: 300px;
-    margin-top: -55px;
-}
-#avatar3{
-    border-radius: 50%;
-    height: 72px;
-    border: 3.3px solid rgb(36, 177, 219);;
-    margin-left: 10px;
-    margin-right: 25px;
-    
-}
-#avatar4{
-    border-radius: 50%;
-    height: 72px;
-    border: 3.3px solid rgb(36, 177, 219);;
-    margin-left: 10px;
-    margin-right: 25px;
-}
-#avatar5{
-    border-radius: 50%;
-    height: 72px;
-    border: 3.3px solid rgb(36, 177, 219);;
-    margin-left: 10px;
-    margin-right: 25px;
-}
-#avatar6{
-    border-radius: 50%;
-    height: 72px;
-    border: 3.3px solid rgb(36, 177, 219);;
-    margin-left: 10px;
-    margin-right: 25px;
-    
 }
